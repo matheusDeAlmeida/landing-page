@@ -69,7 +69,14 @@ export class TccComponent implements OnInit {
       return {
         item: 'Aplicações Web Backend',
         type: types.text,
-        description: '2020 | Criado por <b>Matheus Santos de Almeida</b>',
+        description:
+          `
+          Estes projetos foram criados originalmente para fazer testes
+          de desempenho para o meu trabalho de graduação. Esta página contém os links
+          para os repositórios de cada projeto criado durante a realização do trabalho.
+          <br><br><br>
+          2020 | Criado por <b>Matheus Santos de Almeida</b>
+        `,
       }
     }
   }
