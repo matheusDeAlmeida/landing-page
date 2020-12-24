@@ -1,0 +1,14 @@
+<mat-drawer-container class="example-container">
+  <mat-drawer mode="side" opened style="width: 240px;">
+    <mat-selection-list #frameworks [multiple]="false">
+      <mat-list-option *ngFor="let f of frameworksList" [value]="f">
+        {{f}}
+      </mat-list-option>
+    </mat-selection-list>
+  </mat-drawer>
+
+  <div style="padding-left: 20px;">
+    <app-display-formated-content [content]="selectContent(frameworks.selectedOptions.selected[0]?.value)">
+    </app-display-formated-content>
+  </div>
+</mat-drawer-container>

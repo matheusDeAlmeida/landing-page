@@ -1,0 +1,7 @@
+<h3>{{content.item}}</h3>
+<div *ngIf= "content.type === 1">
+    <p [innerHTML]='content.description'></p>
+</div>
+<div *ngIf= "content.type === 0">
+    <a [href]="content.description">Repositório</a>
+</div>
