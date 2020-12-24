@@ -1,0 +1,32 @@
+a:hover
+{
+    font-size: 16px;
+    color: #757575;
+    cursor: pointer;
+}
+
+.container {
+    margin-left: 24px;
+    margin-top: 24px;
+}
+
+button:hover{background-color:#0000FF;}
+
+button {
+    border-style:solid;
+    border-top-width:2px;
+    border-bottom-width:4px;
+    border-right-width:4px;
+    border-left-width:2px;
+    border-top-color:#D9DFEA;
+    border-bottom-color:#3B5998;
+    border-right-color:#3B5998;
+    border-left-color:#D9DFEA;
+    background-color:#538ADC;
+    font-family:Tahoma, arial;
+    font-size: 18px;
+    color:#FFFFFF;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+  }
